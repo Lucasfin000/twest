@@ -1,0 +1,172 @@
+
+░██████╗░██████╗░███████╗░██████╗░░█████╗░██████╗░██╗░░░██╗  ░██████╗████████╗░█████╗░██████╗░███████╗
+██╔════╝░██╔══██╗██╔════╝██╔════╝░██╔══██╗██╔══██╗╚██╗░██╔╝  ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔════╝
+██║░░██╗░██████╔╝█████╗░░██║░░██╗░██║░░██║██████╔╝░╚████╔╝░  ╚█████╗░░░░██║░░░██║░░██║██████╔╝█████╗░░
+██║░░╚██╗██╔══██╗██╔══╝░░██║░░╚██╗██║░░██║██╔══██╗░░╚██╔╝░░  ░╚═══██╗░░░██║░░░██║░░██║██╔══██╗██╔══╝░░
+╚██████╔╝██║░░██║███████╗╚██████╔╝╚█████╔╝██║░░██║░░░██║░░░  ██████╔╝░░░██║░░░╚█████╔╝██║░░██║███████╗
+░╚═════╝░╚═╝░░╚═╝╚══════╝░╚═════╝░░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░  ╚═════╝░░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝╚══════╝
+
+
+
+░█████╗░███████╗███████╗██╗░█████╗░██╗░█████╗░██╗░░░░░  ░██████╗░██╗░░░██╗██╗██████╗░███████╗
+██╔══██╗██╔════╝██╔════╝██║██╔══██╗██║██╔══██╗██║░░░░░  ██╔════╝░██║░░░██║██║██╔══██╗██╔════╝
+██║░░██║█████╗░░█████╗░░██║██║░░╚═╝██║███████║██║░░░░░  ██║░░██╗░██║░░░██║██║██║░░██║█████╗░░
+██║░░██║██╔══╝░░██╔══╝░░██║██║░░██╗██║██╔══██║██║░░░░░  ██║░░╚██╗██║░░░██║██║██║░░██║██╔══╝░░
+╚█████╔╝██║░░░░░██║░░░░░██║╚█████╔╝██║██║░░██║███████╗  ╚██████╔╝╚██████╔╝██║██████╔╝███████╗
+░╚════╝░╚═╝░░░░░╚═╝░░░░░╚═╝░╚════╝░╚═╝╚═╝░░╚═╝╚══════╝  ░╚═════╝░░╚═════╝░╚═╝╚═════╝░╚══════╝
+
+
+
+
+
+
+
+
+█░░█ █▀▀█ █░░░█ 　 ▀▀█▀▀ █▀▀█ 　 █▀▀█ █▀▀▄ █▀▀▄ 　 █▀▀▄ █▀▀ █░░░█ 　 █▀▀█ █▀▀█ █▀▀█ █▀▀▄ █░░█ █▀▀ ▀▀█▀▀ █▀▀ 
+█▀▀█ █░░█ █▄█▄█ 　 ░░█░░ █░░█ 　 █▄▄█ █░░█ █░░█ 　 █░░█ █▀▀ █▄█▄█ 　 █░░█ █▄▄▀ █░░█ █░░█ █░░█ █░░ ░░█░░ ▀▀█ 
+▀░░▀ ▀▀▀▀ ░▀░▀░ 　 ░░▀░░ ▀▀▀▀ 　 ▀░░▀ ▀▀▀░ ▀▀▀░ 　 ▀░░▀ ▀▀▀ ░▀░▀░ 　 █▀▀▀ ▀░▀▀ ▀▀▀▀ ▀▀▀░ ░▀▀▀ ▀▀▀ ░░▀░░ ▀▀▀ 
+
+▀▀█▀▀ █▀▀█ 　 ▀▀█▀▀ █░░█ █▀▀ 　 █▀▀ ▀▀█▀▀ █▀▀█ █▀▀█ █▀▀ ▀█ 
+░░█░░ █░░█ 　 ░░█░░ █▀▀█ █▀▀ 　 ▀▀█ ░░█░░ █░░█ █▄▄▀ █▀▀ █▀ 
+░░▀░░ ▀▀▀▀ 　 ░░▀░░ ▀░░▀ ▀▀▀ 　 ▀▀▀ ░░▀░░ ▀▀▀▀ ▀░▀▀ ▀▀▀ ▄░
+Directory: store.html
+
+
+Okay so first you need to find       <!-- products page starts -->     comment or go into line 34 on store.html and there you can see
+things like <h1>Product 1</h1>, you need to change the text in it **DO NOT DELETE THE <h1> </h1> or any other code divider (Example: <h2> </h2>) do not delete things with <>!!!!!!!!!!**. 
+There also should be a thing like <img src="YOURLINK" /> change the original link to your own image.
+There also is a     <button class="button-purchase" onclick="window.location.href='PRODUCT-PRODUCTNUMBER.html'"><i class="fas fa-shopping-cart"></i> <label> </label>‏‏‎ ‎‏‏‎ ‎Purchase this product.</button>
+change the PRODUCT.PRODUCTNUMBER to your product number (example: product-1.html). Or you can just add this to the products page:
+
+ <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Calico_tabby_cat_-_Savannah.jpg/1200px-Calico_tabby_cat_-_Savannah.jpg" />
+    <h1>Product 1</h1>
+    <h4>Lorem ipsum dolor</h4>
+    <button class="button-purchase" onclick="window.location.href='PRODUCT.PRODUCTNUMBER.html'"><i class="fas fa-shopping-cart"></i> <label> </label>‏‏‎ ‎‏‏‎ ‎Purchase this product.</button>
+</div>
+
+after every 6 products you will need to add this to the page: 
+
+<div class="products-page"> 
+<!-- here post the products -->
+
+</div>
+
+ again.
+
+
+
+█░░█ █▀▀█ █░░░█ 　 ▀▀█▀▀ █▀▀█ 　 █▀▀ █░░█ █▀▀█ █▀▀▄ █▀▀▀ █▀▀ 　 ▀▀█▀▀ █░░█ █▀▀ 　 █▀▀█ █▀▀█ █▀▀█ █▀▀▄ █░░█ █▀▀ ▀▀█▀▀ 
+█▀▀█ █░░█ █▄█▄█ 　 ░░█░░ █░░█ 　 █░░ █▀▀█ █▄▄█ █░░█ █░▀█ █▀▀ 　 ░░█░░ █▀▀█ █▀▀ 　 █░░█ █▄▄▀ █░░█ █░░█ █░░█ █░░ ░░█░░ 
+▀░░▀ ▀▀▀▀ ░▀░▀░ 　 ░░▀░░ ▀▀▀▀ 　 ▀▀▀ ▀░░▀ ▀░░▀ ▀░░▀ ▀▀▀▀ ▀▀▀ 　 ░░▀░░ ▀░░▀ ▀▀▀ 　 █▀▀▀ ▀░▀▀ ▀▀▀▀ ▀▀▀░ ░▀▀▀ ▀▀▀ ░░▀░░ 
+
+█▀▀█ █▀▀█ █▀▀▀ █▀▀ ▀█ 
+█░░█ █▄▄█ █░▀█ █▀▀ █▀ 
+█▀▀▀ ▀░░▀ ▀▀▀▀ ▀▀▀ ▄░
+
+Directories: product-1.html, product-2.html, ....................
+
+I made 100 copies of the product pages so everything will be ready, every page wont be visible until adding it to the page.
+in there you can change everything in the code dividers.
+LINE 27: change the src="yourimagelink" (change the yourimagelink in it to your own image link). 
+In the LINE 40 change the onclick"window.location.href='YOUR-PAYPAL-LINK' ............ (change the YOUR-PAYPAL-LINK (on the page its index.html) to your payment/paypal link)
+if u want a original payment button that people can pay thru the site ask for it on g-store support page.
+
+NOW IF U WANT TO CHANGE THE LITTLE IMAGES ON THE BOTTOM OF THE PAGE ON THE PRODUCT PAGE change all links from line 49 to line 129 to your images
+
+U probably dont have all copied products, just make a new product-?.html file and copy and paste the code into it from product-1.html
+
+
+
+▒█░▒█ ▒█▀▀▀█ ▒█░░▒█ 　 ▀▀█▀▀ █▀▀█ 　 █▀▀█ █▀▀▄ █▀▀▄ 　 █▀▀▄ █▀▀ █░░░█ 　 █▀▀█ █▀▀█ █▀▀█ ▀▀█▀▀ █▀▀▄ █▀▀ █▀▀█ █▀▀ ▀█ 
+▒█▀▀█ ▒█░░▒█ ▒█▒█▒█ 　 ░░█░░ █░░█ 　 █▄▄█ █░░█ █░░█ 　 █░░█ █▀▀ █▄█▄█ 　 █░░█ █▄▄█ █▄▄▀ ░░█░░ █░░█ █▀▀ █▄▄▀ ▀▀█ █▀ 
+▒█░▒█ ▒█▄▄▄█ ▒█▄▀▄█ 　 ░░▀░░ ▀▀▀▀ 　 ▀░░▀ ▀▀▀░ ▀▀▀░ 　 ▀░░▀ ▀▀▀ ░▀░▀░ 　 █▀▀▀ ▀░░▀ ▀░▀▀ ░░▀░░ ▀░░▀ ▀▀▀ ▀░▀▀ ▀▀▀ ▄░
+
+Directory: partners.html
+
+
+Change line 36, 37, 38 and 39 to your partners things:
+LINE 36: PARTNERS LOGO (NEEDS TO BE SQUARE/RECTANGLE)
+LINE 37: Partners name
+LINE 38: Partners description
+LINE 39: change the partners.html in the onclick="window.location.href='partners.html' ............... to your partners site/discord etc. link, if you need special site page for partner ask for it on g-store support.
+
+
+
+█░░█ █▀▀█ █░░░█ 　 ▀▀█▀▀ █▀▀█ 　 █▀▀ █░░█ █▀▀█ █▀▀▄ █▀▀▀ █▀▀ 　 ▀▀█▀▀ █░░█ █▀▀ 
+█▀▀█ █░░█ █▄█▄█ 　 ░░█░░ █░░█ 　 █░░ █▀▀█ █▄▄█ █░░█ █░▀█ █▀▀ 　 ░░█░░ █▀▀█ █▀▀ 
+▀░░▀ ▀▀▀▀ ░▀░▀░ 　 ░░▀░░ ▀▀▀▀ 　 ▀▀▀ ▀░░▀ ▀░░▀ ▀░░▀ ▀▀▀▀ ▀▀▀ 　 ░░▀░░ ▀░░▀ ▀▀▀ 
+
+█▀▀▄ █▀▀█ █▀▀ █░█ █▀▀▀ █▀▀█ █▀▀█ █░░█ █▀▀▄ █▀▀▄ 　 █▀▀ █▀▀█ █░░ █▀▀█ █▀▀█ 　 █▀▀█ █▀▀█ 
+█▀▀▄ █▄▄█ █░░ █▀▄ █░▀█ █▄▄▀ █░░█ █░░█ █░░█ █░░█ 　 █░░ █░░█ █░░ █░░█ █▄▄▀ 　 █░░█ █▄▄▀ 
+▀▀▀░ ▀░░▀ ▀▀▀ ▀░▀ ▀▀▀▀ ▀░▀▀ ▀▀▀▀ ░▀▀▀ ▀░░▀ ▀▀▀░ 　 ▀▀▀ ▀▀▀▀ ▀▀▀ ▀▀▀▀ ▀░▀▀ 　 ▀▀▀▀ ▀░▀▀ 
+
+░▀░ █▀▄▀█ █▀▀█ █▀▀▀ █▀▀ ▀█ 
+▀█▀ █░▀░█ █▄▄█ █░▀█ █▀▀ █▀ 
+▀▀▀ ▀░░░▀ ▀░░▀ ▀▀▀▀ ▀▀▀ ▄░
+
+Directory: style.css
+
+Line 7 and 8
+LINE 7: BACKGROUND COLOR, IF U WANT AN IMAGE U CAN DELETE IT, CHANGE THE RGB THING TO YOUR COLOR WITH #000 HEX OR JUST CHANGE THE COLOR IN VISUAL STUDIO CODE WITH THEIR COLOR PICKER.
+LINE 8: BACKGROUND IMAGE, IF U WANT A COLOR U CAN DELETE IT, IN THIS U CAN ADD THE IMAGE IN URL(IMAGELINK)
+
+
+
+▒█░▒█ ▒█▀▀▀█ ▒█░░▒█ 　 ▀▀█▀▀ ▒█▀▀▀█ 　 ░█▀▀█ ▒█▀▀▄ ▒█▀▀▄ 　 ▒█▄░▒█ ▒█▀▀▀ ▒█░░▒█ 　 ▒█▀▀█ ▒█▀▀▀ ▒█░░▒█ ▀█▀ ▒█▀▀▀ ▒█░░▒█ ▒█▀▀▀█ ▀█ 
+▒█▀▀█ ▒█░░▒█ ▒█▒█▒█ 　 ░▒█░░ ▒█░░▒█ 　 ▒█▄▄█ ▒█░▒█ ▒█░▒█ 　 ▒█▒█▒█ ▒█▀▀▀ ▒█▒█▒█ 　 ▒█▄▄▀ ▒█▀▀▀ ░▒█▒█░ ▒█░ ▒█▀▀▀ ▒█▒█▒█ ░▀▀▀▄▄ █▀ 
+▒█░▒█ ▒█▄▄▄█ ▒█▄▀▄█ 　 ░▒█░░ ▒█▄▄▄█ 　 ▒█░▒█ ▒█▄▄▀ ▒█▄▄▀ 　 ▒█░░▀█ ▒█▄▄▄ ▒█▄▀▄█ 　 ▒█░▒█ ▒█▄▄▄ ░░▀▄▀░ ▄█▄ ▒█▄▄▄ ▒█▄▀▄█ ▒█▄▄▄█ ▄░
+
+Directory: reviews.html
+
+
+LINE 29: AVATAR IMAGE
+LINE 30: NICKNAME
+LINE 31: REVIEW AMOUNT (?/10)
+LINE 32:: REVIEWS TITLE/DESCRIPTION (EXAMPLE: LOVE IT SO MUCH!)
+
+MORE LINES ARE LOOKING THE SAME, JUST HAVE ANOTHER NUMBERS.
+
+
+▒█░▒█ ▒█▀▀▀█ ▒█░░▒█ 　 ▀▀█▀▀ ▒█▀▀▀█ 　 ░█▀▀█ ▒█▀▀▄ ▒█▀▀▄ 　 ▒█▄░▒█ ▒█▀▀▀ ▒█░░▒█ 　 ▀▀█▀▀ ▒█▀▀▀ ░█▀▀█ ▒█▀▄▀█ 
+▒█▀▀█ ▒█░░▒█ ▒█▒█▒█ 　 ░▒█░░ ▒█░░▒█ 　 ▒█▄▄█ ▒█░▒█ ▒█░▒█ 　 ▒█▒█▒█ ▒█▀▀▀ ▒█▒█▒█ 　 ░▒█░░ ▒█▀▀▀ ▒█▄▄█ ▒█▒█▒█ 
+▒█░▒█ ▒█▄▄▄█ ▒█▄▀▄█ 　 ░▒█░░ ▒█▄▄▄█ 　 ▒█░▒█ ▒█▄▄▀ ▒█▄▄▀ 　 ▒█░░▀█ ▒█▄▄▄ ▒█▄▀▄█ 　 ░▒█░░ ▒█▄▄▄ ▒█░▒█ ▒█░░▒█ 
+
+▒█▀▄▀█ ▒█▀▀▀ ▒█▀▄▀█ ▒█▀▀█ ▒█▀▀▀ ▒█▀▀█ ▒█▀▀▀█ ▀█ 
+▒█▒█▒█ ▒█▀▀▀ ▒█▒█▒█ ▒█▀▀▄ ▒█▀▀▀ ▒█▄▄▀ ░▀▀▀▄▄ █▀ 
+▒█░░▒█ ▒█▄▄▄ ▒█░░▒█ ▒█▄▄█ ▒█▄▄▄ ▒█░▒█ ▒█▄▄▄█ ▄░
+
+Directory: ourteam.html
+
+LINE 28: CHANGE THE src="..." (change the ... to your team member avatar)
+LINE 29: STAFF NICKNAME/NAME
+LINE 30: ROLE (FOUNDER/ADMIN ETC.)
+LINE 41: HIS DESCRIPTION (EXAMPLE: IM WORKING HERE FOR 2 YEARS AND I LOVE THE WHOLE TEAM, CONTACT ME ON @...#0000)
+
+MORE LINES ARE LOOKING THE SAME, JUST HAVE ANOTHER NUMBERS.
+
+
+
+
+
+█▀▀ █▀█ █▀█   █▀▄▀█ █▀█ █▀█ █▀▀ ░   ▄▀█ █▀ █▄▀   █▀█ █▄░█   █▀ █░█ █▀█ █▀█ █▀█ █▀█ ▀█▀   █▀▀ █░█ ▄▀█ █▄░█ █▄░█ █▀▀ █░░
+█▀░ █▄█ █▀▄   █░▀░█ █▄█ █▀▄ ██▄ █   █▀█ ▄█ █░█   █▄█ █░▀█   ▄█ █▄█ █▀▀ █▀▀ █▄█ █▀▄ ░█░   █▄▄ █▀█ █▀█ █░▀█ █░▀█ ██▄ █▄▄
+
+█▀█ █▀█   █▀█ █▀█ █▀▀ █▄░█   ▄▀█   ▀█▀ █ █▀▀ █▄▀ █▀▀ ▀█▀ ░
+█▄█ █▀▄   █▄█ █▀▀ ██▄ █░▀█   █▀█   ░█░ █ █▄▄ █░█ ██▄ ░█░ ▄
+
+
+
+███████╗███╗░░██╗██████╗░  ░█████╗░███████╗  ████████╗██╗░░██╗███████╗
+██╔════╝████╗░██║██╔══██╗  ██╔══██╗██╔════╝  ╚══██╔══╝██║░░██║██╔════╝
+█████╗░░██╔██╗██║██║░░██║  ██║░░██║█████╗░░  ░░░██║░░░███████║█████╗░░
+██╔══╝░░██║╚████║██║░░██║  ██║░░██║██╔══╝░░  ░░░██║░░░██╔══██║██╔══╝░░
+███████╗██║░╚███║██████╔╝  ╚█████╔╝██║░░░░░  ░░░██║░░░██║░░██║███████╗
+╚══════╝╚═╝░░╚══╝╚═════╝░  ░╚════╝░╚═╝░░░░░  ░░░╚═╝░░░╚═╝░░╚═╝╚══════╝
+
+░██████╗░██╗░░░██╗██╗██████╗░███████╗
+██╔════╝░██║░░░██║██║██╔══██╗██╔════╝
+██║░░██╗░██║░░░██║██║██║░░██║█████╗░░
+██║░░╚██╗██║░░░██║██║██║░░██║██╔══╝░░
+╚██████╔╝╚██████╔╝██║██████╔╝███████╗
+░╚═════╝░░╚═════╝░╚═╝╚═════╝░╚══════╝
